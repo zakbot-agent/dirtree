@@ -1,0 +1,25 @@
+{
+  "name": "dirtree",
+  "version": "1.0.0",
+  "description": "Generate beautiful ASCII directory trees. Like 'tree' but configurable, with filters and markdown export.",
+  "main": "dist/index.js",
+  "bin": {
+    "dirtree": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "tree",
+    "directory",
+    "ascii",
+    "cli",
+    "markdown"
+  ],
+  "author": "Zakaria Kone",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.19.15"
+  }
+}
